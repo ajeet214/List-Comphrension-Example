@@ -16,9 +16,9 @@ Note: Make sure you sort the final lists (in an ascending order) that you get be
 
 Examples:
 Input 1:
-[2, 5, 9, 12, 13, 15, 16, 17, 18, 19]
-[2, 4, 5, 6, 7, 9, 13, 16]
-[1, 2, 5, 9, 10, 11, 12, 13, 15]
+[2, 5, 9, 12, 13, 15, 16, 17, 18, 19]\n
+[2, 4, 5, 6, 7, 9, 13, 16]\n
+[1, 2, 5, 9, 10, 11, 12, 13, 15]\n
 Output 1:
 [2, 5, 9, 13]
 [16]
