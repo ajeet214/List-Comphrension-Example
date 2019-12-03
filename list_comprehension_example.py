@@ -1,5 +1,8 @@
+#List of students who play cricket
 C = [2, 5, 9, 12, 13, 15, 16, 17, 18, 19]
+#List of students who play football
 F = [2, 4, 5, 6, 7, 9, 13, 16]
+#List of students who play hockey
 H = [1, 2, 5, 9, 10, 11, 12, 13, 15]
 
 # Write your code here
