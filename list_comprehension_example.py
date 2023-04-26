@@ -16,3 +16,18 @@ print(sorted(all_sports))
 print(sorted(cricket_and_football))
 print(sorted(do_not_play_any))
 print(sorted(two_sports))
+
+'''
+for more explanation:
+https://stackoverflow.com/questions/18072759/how-can-i-use-list-comprehensions-to-process-a-nested-list
+'''
+
+# nested loops
+l = [['40', '20', '10', '30'], ['20', '20', '20', '20', '20', '30', '20'], ['30', '20', '30', '50', '10', '30', '20', '20', '20'], ['100', '100'], ['100', '100', '100', '100', '100'], ['100', '100', '100', '100']]
+
+newList = []
+for x in l:
+    for y in x:
+        newList.append(float(y))
+# using list comphrehension
+[float(y) for x in l for y in x]
